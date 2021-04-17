@@ -6,6 +6,7 @@
 <img src="https://user-images.githubusercontent.com/79997705/115066087-6a0e4c80-9ec5-11eb-94dd-dc1e6f635811.PNG" min-width="400px" max-width="400px" width="400px" align="" alt="">
 </div>
 
+
 O iCharge foi um dos meus projetos de estágio em 2019. Essa é uma aplicação de internet das coisas no qual é possível fazer
 o acionamento de um LED através de uma rede local. O microcontrolador usado no projeto é um Arduíno UNO, ele se comunica com
 um dispositivo conectado à sua rede através de um módulo Ethernet Shield. 

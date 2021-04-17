@@ -10,6 +10,17 @@
 O iCharge foi um dos meus projetos de estágio em 2019. Essa é uma aplicação de internet das coisas no qual é possível fazer
 o acionamento de um LED através de uma rede local. O microcontrolador usado no projeto é um Arduíno UNO, ele se comunica com
 um dispositivo conectado à sua rede através de um módulo Ethernet Shield. 
+</br>
+Na primeira imagem, podemos ver o LDR que detecta a intensidade de luz e é usado como parâmetro para o acendimento automático do LED branco. Ao lado, temos o LED verde, que é conr controlado da página HTML. No trecho de código abaixo, vemos a configuração dos parâmetros de rede da Ethernet Shield.
+
+```
+byte mac[] = {0xDe, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
+
+unsigned short int ldrValor = 0;
+
+//IPAddress ip(10, 33, 250, 117); 
+IPAddress ip(192, 168, 0, 105);   // Here, you must put the Arduino's IP 
+```
 
 ## Linguagens da aplicação
  

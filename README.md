@@ -27,6 +27,7 @@ IPAddress ip(192, 168, 0, 105);   // Here, you must put the Arduino's IP
 ![image](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+> Status do Projeto: Concluido :heavy_check_mark:
 ***
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
  
